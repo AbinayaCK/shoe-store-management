@@ -1,0 +1,514 @@
+
+      html,
+      body {
+        /* height: 100vh; */
+        width: 100vw;       
+      }
+      
+      .top_header {
+        width: 75vw;
+        margin: 0 auto;
+        height: 4vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(15, 15, 15);
+        color: white;
+        font-size: 4px;
+        /* box-shadow: 0 4px 8px white; */
+        font-family: "Geologica", serif;
+        
+      }
+      header {
+        /* height: 7vh;
+        margin: 0 auto;
+        width: 75vw; */
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 8px rgba(215, 216, 216, 0.2);
+        position: sticky;
+        top: 0px; 
+       z-index: 100;
+      }
+      
+      .sub_header {
+        height: 7vh;
+        
+        width: 75vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+        background-color: white;
+        
+       
+      }
+      .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Geologica", serif;
+        font-size: 7px;
+        gap:4px;
+        margin-left: 10px;
+      }
+      .left #logo{
+        font-size: 12px;
+       
+      }
+      .center {
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+        font-family: "Geologica", serif;
+        font-size: 8px;
+        
+      }
+      .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-family: "Geologica", serif;
+       font-size: 7px;
+      }
+      
+      .right input{
+        
+        /* height: 15px; */
+        background-color: black;
+        color: white;
+        border: none;
+        height: 40px;
+        width: 80px;
+      }
+     .search{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      
+     
+     }
+      #search_logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        font-size: 10px;
+        color: rgb(212, 202, 202);
+        height: 45px;
+        width: 30px;
+        
+      }
+       
+       section {
+        /* height: 85vh; */
+        display: flex;
+        /* width: 5vw; */
+         justify-content: center;
+       align-items: flex-start;
+       gap: 20px;
+       } 
+      .left_div {
+        width: 45vw;
+        /* height: 75vh; */
+        margin: 0;
+      }
+      .left_sub {
+        background-color: rgb(233, 237, 237);
+       }
+
+      .content1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 8px;
+        margin-left: 10px;
+        margin-right: 20px;
+        font-family: "Geologica", serif;
+        color: rgb(83, 86, 86);
+        
+      }
+      .sub_content1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .sub_content1 a{
+        font-size: 12px;
+      }
+
+      .left_sub img {
+        width: 45vw;
+        height: 75vh;
+      }
+      .left1_div {
+        display: flex;
+        /* width: 45vw; */
+       
+        flex-wrap: wrap;
+        /* box-shadow: 0 2px 5px white; */
+      }
+      hr{
+        opacity: 0.7;
+       
+      }
+      .left1_div img {
+        width: 20vw;
+        height: 55vh;
+        flex-basis: 20%;
+        margin: 8px;
+        padding: 5px;
+       
+      }
+      .left2_div h1{
+        font-family: "Poppins", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 30px;
+      }
+      .left2_div{
+        margin-left: 10px;
+      }
+      .left2_div p{
+        font-family: "Poppins", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 12px;
+      }
+      .left2_div ul{
+        font-family: "Poppins", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 13px;
+        margin-left: 0px;
+        padding: 18px;
+      }
+      .line{
+        opacity: 1;
+      }
+      #note{
+        font-family: "Poppins", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 30px;
+      }
+      .rate{
+        color: rgb(101, 103, 104);
+        font-size: 25px;
+        
+      }
+      .ratings {
+        text-align: center;
+        border: solid rgb(190, 186, 186);
+        margin-left: 10px;
+        width: 20vw;
+      }
+      
+      .star{
+        font-size: 15px;
+        color: rgb(73, 73, 73);
+      }
+      .btn{
+        background-color: white;
+        font-size: 15px;
+        
+        height: 50px;
+        width: 15vw;
+        margin-bottom: 20px;
+        padding: 10px;
+        border:solid rgb(126, 130, 130);
+    
+      }
+      .review{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+          
+      }
+      .review a{
+        color: black;
+        font-size: 12px;
+      }
+      .right_div {
+        width: 30vw;
+        /* height: 75vh; */
+        font-family: "Poppins", serif;
+       display: flex;
+       flex-direction: column;
+       position: sticky;
+       top: 40px;
+       
+      }
+      .right_div1 h1{
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 17px;
+      }
+      .right_div1 P{
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+      }
+      .right_div1 a{
+        color: grey;
+        font-size: 13px;
+      }
+
+      .right_div2 img{
+        height: 70px;
+        width: 60px;
+        margin-right: 5px;
+      }
+      .right_div3{
+        display: flex;
+        justify-content:flex-start;
+        /* align-items: center; */
+        flex-direction: row;
+       width: 30vw;
+       gap: 10px;
+        
+      }
+      .right_div3 img{
+        height: 20px;
+        width: 15px;
+        margin: 4px;
+        
+      }
+      .sub1{
+        display: flex;
+        flex-direction: column;
+        height: 13vh;
+        width: 14vw;
+        background-color: rgb(191, 197, 197);
+       }
+      
+      .sub11{
+        display: flex;
+        font-size: 10px;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .sub2{
+        display: flex;
+        flex-direction: column;
+        height: 13vh;
+        width: 14vw;
+        background-color: rgb(191, 197, 197);
+       }
+      
+      .sub12{
+        display: flex;
+        font-size: 10px;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+      }
+      
+      .right_div4{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+        
+      }
+      .div1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 3px;
+      }
+      .end{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        font-size: 10px;
+          margin-right: 20px;
+         
+      }
+     .guide{
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      font-size: 10px;
+        margin-right: 20px;
+        font-size: 12px;
+     } 
+     .guide a{
+      color: rgb(81, 84, 84);
+     }
+     .last{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+      font-size: 10px;
+      margin-right: 10px;
+     }
+     .buy{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 10px;
+      
+     }
+     .buy1{
+      height: 5vh;
+      text-align: center;
+      width: 12vw;
+      background-color: rgb(101, 103, 105);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+     }
+     .buy2{
+      height: 5vh;
+      width: 15vw;
+      background-color: rgb(101, 103, 105);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+     }
+     #buy_1{
+      position: absolute;
+      font-size: 10px;
+      height: 4px;
+      width: 10px;
+      text-align: center;
+      padding: 15px;
+      margin-left: 15px;
+      top: 0px;
+      
+     }
+     .share a{
+      color: gray;
+      font-size: 12px;
+     }
+     .final p{
+      font-size: 13px;
+      color: rgb(46, 44, 44);
+    }
+    .final a{
+      color: gray;
+    }
+    .contact{
+      width: 75vw;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      font-family: "Poppins", serif;
+        font-weight: 200;
+        
+     }
+     .contact h1{
+      font-size: 15px;
+      font-weight: 400;
+     }
+     .contact h2{
+      font-size: 14px;
+      font-weight: 400;
+     }
+     .never{
+      width: 20vw;
+     }
+     .never p{
+      font-size: 11px;
+     }
+     .never input{
+      height: 25px;
+    
+      
+     }
+      .never #in{
+        height: 30px;
+        width: 20px;
+        color: white;
+        background-color: black;
+         font-size: 22px;  
+     }
+     .follow  {
+     
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+       
+      
+      }
+      .icon1, .icon2, .icon3, .icon4 {
+       border: 2px solid rgb(62, 61, 61);
+      width: 30px;
+      height: 25px;
+       
+      }
+     .help p{
+      font-size: 11px;
+
+     }
+     
+     
+       .help1{
+      display: flex;
+      gap: 10px;
+       }
+     
+     .lhelp{
+      display: flex;
+      flex-direction: column;
+      }
+     .rhelp{
+      display: flex;
+      flex-direction: column;
+     }
+     .images{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      
+       }
+
+    .images img{
+      height: 20px;
+      width: 20px;
+    }
+    .about p{
+      font-size: 11px;
+  }
+
+    footer{
+      
+      height: 5vh;
+      
+      background-color: black;
+      color: gray;
+      font-size: 5px;
+      display: flex;
+      gap: 20px;
+      justify-content: flex-start;
+   
+      align-items: center;
+     
+    }
+    .sticky{
+      background-color: rgb(177, 174, 174);
+      height: 50px;
+      width: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50px;
+      position: sticky;
+      bottom: 10px;
+      left: 30px;
+    }
+   
